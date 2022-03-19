@@ -1,0 +1,42 @@
+.section-1 {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    .wraper {
+        display: flex;
+        .box {
+            &:first-child{
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+            }
+            &:last-child {
+                width: 200px;
+                height: 200px;
+                background-color: black;
+            }
+            .test {                
+                font-size: 15px;
+                
+                a {
+                    color: $color01;
+                    transition: all 0.5s linear 0.5s;
+                    &:hover {
+                        color: black;
+                    } 
+                }
+            }
+
+        }        
+    }
+    .wraper-2 {
+        width: 200px;
+        height: 200px;
+        background-color: rebeccapurple;
+    }
+}
+.section-2 {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
